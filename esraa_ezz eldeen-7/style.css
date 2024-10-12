@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: "Cairo", sans-serif;
+}
+
+
+
+header{
+    background-image:linear-gradient(to bottom,#000011,#00001134) ,url(imgs/169881818137_3852_951574.jpg);
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.social{
+   
+    height: 50px;
+    display: flex;
+    align-items:center ;
+direction: ltr;
+    background-color: #000011;
+padding-left: 65px;
+}
+
+.social .fa-brands{
+    color: white;
+   margin-left: 30px;
+    font-size: 22px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right:80px ;
+ 
+}
+ul li a{
+    color:  #000011;
+    font-size: 16px;
+    font-weight: 800;
+   margin-right: 30px;
+}
+ul li a:hover,.active{
+    color: #26a28d;
+ 
+}
+.logo a{
+    color:  #000011;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.content{
+    text-align: center;
+   color: white;
+   width: 36%;
+   margin: 12% auto;
+}
+.content h1{
+    font-size: 43px;
+    border: 3px solid white;
+   
+}
+.content p{
+    font-size: 36px;
+    font-weight: 800px;
+}
